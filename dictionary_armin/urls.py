@@ -8,4 +8,4 @@ urlpatterns = [
     path('rw/', views.randomword, name='randomword'),
 ]
 
-#Ramin Dashti
+#Ramin Dashti is KajFak
