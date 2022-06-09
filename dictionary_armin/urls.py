@@ -7,3 +7,5 @@ urlpatterns = [
     path('insword/', views.insword, name='insword'),
     path('rw/', views.randomword, name='randomword'),
 ]
+
+#Ramin Dashti
