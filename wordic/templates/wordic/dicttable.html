@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>en_word</th>
+        <th>defn_word</th>
+    </tr>
+    {% for item in query_results %}
+    <tr> 
+        <td>{{ item.en_word }}</td>
+        <td>{{ item.defn_word }}</td>
+    </tr>
+    {% endfor %}
+</table>

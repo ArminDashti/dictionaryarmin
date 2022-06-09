@@ -1,0 +1,10 @@
+{% if words1 %}
+    <ul>
+    {% for question in words1  %}
+        </b>{{ question.en_words }}{{ question.defn }}</b>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+
